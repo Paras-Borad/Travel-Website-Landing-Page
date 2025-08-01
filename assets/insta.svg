@@ -1,0 +1,12 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="instaGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f09433" />
+      <stop offset="25%" stop-color="#e6683c" />
+      <stop offset="50%" stop-color="#dc2743" />
+      <stop offset="75%" stop-color="#cc2366" />
+      <stop offset="100%" stop-color="#bc1888" />
+    </linearGradient>
+  </defs>
+  <path d="M7 2C4.24 2 2 4.24 2 7V17C2 19.76 4.24 22 7 22H17C19.76 22 22 19.76 22 17V7C22 4.24 19.76 2 17 2H7ZM12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8ZM17.5 6C18.33 6 19 6.67 19 7.5C19 8.33 18.33 9 17.5 9C16.67 9 16 8.33 16 7.5C16 6.67 16.67 6 17.5 6ZM12 10C10.9 10 10 10.9 10 12C10 13.1 10.9 14 12 14C13.1 14 14 13.1 14 12C14 10.9 13.1 10 12 10Z" fill="url(#instaGrad)"/>
+</svg>

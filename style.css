@@ -1,0 +1,1869 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.hamburger {
+    height: 20px;
+    width: 20px;
+    display: none;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+ul li {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+    /* Border space reserved */
+    padding: 0px 10px;
+    width: 106px;
+}
+
+.downaero {
+    width: 20px;
+}
+
+nav ul li:hover {
+    border: 1px solid black;
+    padding: 0px 10px;
+    border-radius: 6px;
+}
+
+.maincontainer {
+    position: relative;
+    padding-bottom: 600px;
+}
+
+.mainbgimg {
+    position: absolute;
+    top: -66px;
+    right: 0px;
+    height: 549px;
+    width: 625px;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.mainh5 {
+    color: rgba(223, 105, 81, 1);
+}
+
+h2 {
+    font-family: "Volkhov";
+    font-size: 54px;
+    color: rgba(24, 30, 75, 1);
+    margin-top: 15px;
+}
+
+.maincop {
+    font-family: "Poppins";
+    color: rgb(57, 57, 64);
+    font-size: small;
+    margin-top: 15px;
+}
+
+.btn1 {
+    background-color: rgba(241, 165, 1, 1);
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+.playsvg {
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 20px;
+    filter: drop-shadow(0px 5px 7px rgba(255, 0, 0, 0.5));
+}
+
+.playdemo {
+    font-family: "Poppins";
+    margin-left: 80px;
+    position: absolute;
+    color: rgb(57, 57, 64);
+    margin-top: 29px;
+}
+
+.left {
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    left: 107px;
+    top: 100px;
+}
+
+.traveller1 {
+    width: 600px;
+    height: 550px;
+    position: absolute;
+    right: 141px;
+}
+
+.plane1 {
+    position: absolute;
+    right: 500px;
+}
+
+.plane2 {
+    position: absolute;
+    right: 99px;
+    top: 54px;
+}
+
+.card {
+    width: 158px;
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.card2 {
+    box-shadow: 10px 14px 23px rgba(0, 0, 0, 0.08);
+    position: relative;
+}
+
+.cardplan {
+    width: 100px;
+    height: 91px;
+}
+
+.card h5 {
+    font-size: 16px;
+    color: rgba(30, 29, 76, 1);
+    margin-top: 10px;
+}
+
+.cardmain {
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.card p {
+    margin-top: 10px;
+}
+
+.services h6 {
+    text-align: center;
+    color: rgba(94, 98, 130, 1);
+}
+
+.services h3 {
+    text-align: center;
+    font-family: "Volkhov";
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.services {
+    background-image: url(assets/dotdesign.png);
+    background-repeat: no-repeat;
+    background-position: top -4px right 53px;
+    background-size: 104px 106px;
+    height: 400px;
+}
+
+.rectangle {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: -22px;
+    bottom: -19px;
+    background: #DF6951;
+    border-radius: 30px 0px 10px;
+    z-index: -1 !important;
+}
+
+.topselling h6 {
+    text-align: center;
+    color: rgba(94, 98, 130, 1);
+}
+
+.topselling h3 {
+    text-align: center;
+    font-family: "Volkhov";
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.topselling {
+    height: 540px;
+    margin-top: 32px;
+}
+
+.imgcards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 374px;
+    gap: 153px;
+}
+
+.imgcard {
+    position: relative;
+    width: 220px;
+    height: 329px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 23px;
+    box-shadow: 10px 14px 23px rgba(0, 0, 0, 0.08);
+}
+
+.imgcard1 {
+    width: 220px;
+    height: 240px;
+    border-radius: 23px 23px 0px 0px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.imgcard3 {
+    position: relative;
+}
+
+.cardinfo {
+    font-family: "Poppins";
+    color: rgb(57, 57, 64);
+}
+
+.span1 {
+    font-size: 13px;
+    position: absolute;
+    bottom: 57px;
+    left: 10px;
+}
+
+.span2 {
+    font-size: 13px;
+    position: absolute;
+    bottom: 57px;
+    right: 10px;
+}
+
+.span3 {
+    font-size: 11px;
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+}
+
+.arrowicon {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    bottom: 32px;
+    left: 7px;
+}
+
+.decore2 {
+    position: absolute;
+    right: -37px;
+    bottom: 10px;
+    height: 153px;
+    z-index: -1;
+}
+
+.easyandfast {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 60px 100px;
+    gap: 60px;
+}
+
+.easyleft {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 28px;
+}
+
+.subheading {
+    color: rgba(94, 98, 130, 1);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.mainheading {
+    font-size: 32px;
+    font-weight: 700;
+    color: #181E4B;
+    line-height: 1.3;
+    font-family: "Volkhov";
+}
+
+.easycards {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.easycard {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.easyicon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.easyicon img {
+    width: 24px;
+    height: 24px;
+}
+
+.easycard h6 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(94, 98, 130, 1);
+}
+
+.easycard p {
+    margin-top: 6px;
+    font-size: 14px;
+    color: rgba(94, 98, 130, 1);
+    line-height: 1.5;
+}
+
+.easyright {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightimg {
+    max-width: 100%;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin-left: 115px;
+    margin-top: -68px;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+    height: 291px;
+    gap: 43px;
+}
+
+.lefttestimo {
+    width: 251px;
+}
+
+.lefttestimo h3 {
+    margin-top: 4px;
+    font-size: 26px;
+    color: rgba(20, 24, 62, 1);
+}
+
+.lefttestimo h6 {
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: rgba(94, 98, 130, 1);
+}
+
+.loadimg {
+    display: flex;
+    justify-content: start;
+    gap: 12px;
+    margin-top: 45px;
+}
+
+.darkcircal {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
+.righttestimo {
+    position: relative;
+    width: 418px;
+}
+
+.testimocards {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.testimocard {
+    position: relative;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 17px;
+    padding: 27px;
+    height: 117px;
+    width: 285px;
+    top: 11px;
+    left: 12px;
+    z-index: 2;
+}
+
+.testimocard>* {
+    font-family: "poppins";
+}
+
+.bigp {
+    color: rgb(94, 98, 130, 1);
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+.testimocard h6 {
+    margin-top: 19px;
+    font-size: 15px;
+    color: rgba(94, 98, 130, 1);
+}
+
+.smallp {
+    margin-top: 4px;
+    font-size: 11px;
+    color: rgb(94, 98, 130, 1);
+}
+
+.manimg {
+    position: absolute;
+    top: -10px;
+    left: -26px;
+    height: 50px;
+    width: 50px;
+}
+
+.testimocard2 {
+    position: absolute;
+    border: 1px solid rgb(180, 163, 163);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 17px;
+    padding: 27px;
+    height: 117px;
+    width: 285px;
+    top: 62px;
+    left: 47px;
+    opacity: 12px;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.testimocard2 h6 {
+    position: absolute;
+    bottom: 31px;
+}
+
+.testimocard2 p {
+    position: absolute;
+    bottom: 11px;
+}
+
+.testimocard2 h6 {
+    margin-top: 19px;
+    font-size: 15px;
+    color: rgba(94, 98, 130, 1);
+}
+
+.downarrow {
+    position: absolute;
+    right: -57px;
+    top: 157px;
+    height: 20px;
+    width: 20px;
+}
+
+.uparrow {
+    position: absolute;
+    right: -57px;
+    top: 108px;
+    width: 20px;
+    height: 20px;
+}
+
+.cologos {
+    display: flex;
+    justify-content: center;
+    max-height: 100px;
+    align-items: center;
+    gap: 110px;
+}
+
+.allcoimg {
+    filter: grayscale(100%);
+    height: 100px;
+    width: 100px;
+}
+
+.allcoimg:hover {
+    filter: initial;
+}
+
+.coimg2 {
+    width: 180px;
+}
+
+.coimg4 {
+    height: 30px;
+}
+
+.coimg5 {
+    height: 20px;
+    width: 60px;
+}
+
+
+#getinfo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 431px;
+}
+
+#getinfobg {
+    height: 250px;
+    width: 700px;
+}
+
+.h31 {
+    position: absolute;
+    font-size: 20px;
+    font-family: "poppins";
+    width: 583px;
+    color: rgba(94, 98, 130, 1);
+    word-spacing: 3px;
+    left: 377px;
+    top: 126px;
+}
+
+.h32 {
+    position: absolute;
+    font-size: 20px;
+    font-family: "poppins";
+    width: 583px;
+    color: rgba(94, 98, 130, 1);
+    word-spacing: 3px;
+    left: 474px;
+    top: 157px;
+}
+
+#getinfoimg {
+    position: absolute;
+    top: 83px;
+    right: 273px;
+    height: 40px;
+    width: 40px;
+}
+
+#Email {
+    position: absolute;
+    border-radius: 9px;
+    border: none;
+    width: 207px;
+    height: 20px;
+    left: 454px;
+    top: 231px;
+    padding: 10px 10px 10px 36px;
+}
+
+#getinfobtn {
+    position: absolute;
+    border-radius: 9px;
+    border: none;
+    background-color: rgb(255, 125, 104);
+    color: white;
+    font-size: 10px;
+    width: 95px;
+    height: 39px;
+    left: 720px;
+    top: 232px;
+}
+
+.gmailimg {
+    position: absolute;
+    left: 460px;
+    top: 240px;
+    z-index: 1;
+}
+
+.allsection {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    height: 168px;
+}
+
+.section1 {
+    width: 214px;
+}
+
+.section1 h1 {
+    color: rgba(24, 30, 75, 1);
+    font-size: 40px;
+    font-family: "poppins";
+    font-weight: 500;
+}
+
+.section1 p {
+    color: rgba(94, 98, 130, 1);
+    font-size: 13px;
+    margin-top: 14px;
+}
+
+.section2 {
+    width: 400px;
+    padding: 13px 20px;
+    background-color: #ffffff;
+    height: 122px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    margin: auto;
+}
+
+.footer-column {
+    width: 20%;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #6666a0;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+
+.footer-column ul li a:hover {
+    color: #000;
+}
+
+.footer-column ul li a:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    text-decoration: none;
+}
+
+.section3 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section3 img {
+    margin: 0 10px;
+}
+
+.section3 h3 {
+    font-size: 18px;
+    color: #5E6282;
+    margin: 30px 0 20px;
+    font-weight: 500;
+}
+
+.section3 img:nth-child(1),
+.section3 img:nth-child(2),
+.section3 img:nth-child(3) {
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
+}
+
+.section3 img:nth-child(5),
+.section3 img:nth-child(6) {
+    width: 130px;
+    height: auto;
+    margin: 0 10px;
+}
+
+.rights {
+    display: flex;
+    justify-content: center;
+    color: #5E6282;
+    font-size: 13px;
+    margin-bottom: 35px;
+}
+
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .section3 img:nth-child(1),
+    .section3 img:nth-child(2),
+    .section3 img:nth-child(3) {
+        width: 25px;
+        height: 25px;
+    }
+
+    .section3 img:nth-child(5),
+    .section3 img:nth-child(6) {
+        width: 81px;
+        height: 35px;
+    }
+
+    .section3 h3 {
+        margin: 10px 0px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .mainbgimg {
+        right: -20px;
+        height: 571px;
+        width: 597px;
+    }
+
+    h2 {
+        width: 700px;
+    }
+
+    .traveller1 {
+        right: -20px;
+        top: 47px;
+    }
+
+    .services {
+        margin-top: 100px;
+    }
+
+    .cardmain {
+        flex-wrap: nowrap;
+    }
+
+    .easyandfast {
+        padding: 40px 50px;
+        /* Reduce side padding */
+        gap: 40px;
+        /* Reduce space between left and right */
+    }
+
+    .rightimg {
+        max-width: 450px;
+        width: 399px;
+        height: 566px;
+        margin-left: 27px;
+    }
+
+    .headingh3 {
+        font-size: 28px;
+    }
+
+    .easycards p,
+    .easycards h6 {
+        font-size: 12px;
+    }
+
+    .testimonials {
+        position: relative;
+    }
+
+    .lefttestimo {
+        position: absolute;
+        left: 99px;
+    }
+
+    .righttestimo {
+        position: absolute;
+        right: 74px;
+        top: -11px;
+    }
+
+    .uparrow {
+        top: 103px;
+        right: -17px;
+    }
+
+    .downarrow {
+        top: 170px;
+        right: -17px;
+    }
+
+    .h31 {
+        left: 245px;
+    }
+
+    .h32 {
+        left: 363px;
+    }
+
+    #getinfoimg {
+        right: 155px;
+    }
+
+    #Email {
+        left: 331px;
+    }
+
+    .gmailimg {
+        left: 340px;
+    }
+
+    #getinfobtn {
+        left: 598px;
+    }
+
+    .section1 {
+        margin-left: 34px;
+    }
+
+    .imgcards {
+        gap: 120px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+    ul {
+        gap: 12px;
+    }
+
+    .traveller1 {
+        display: none;
+    }
+
+    .mainh5 {
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        width: 100%;
+    }
+
+    .plane1 {
+        display: none;
+    }
+
+    .plane2 {
+        display: none;
+    }
+
+    .left {
+        width: 79vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    h2 {
+        align-items: center;
+        width: 100%;
+    }
+
+    .maincop {
+        align-items: center;
+    }
+
+    .playsvg {
+        top: 248px;
+        left: 278px;
+
+    }
+
+    .btn1 {
+        position: absolute;
+        top: 250px;
+        left: 165px;
+    }
+
+    .playdemo {
+        position: absolute;
+        right: 166px;
+        top: 248px;
+    }
+
+    .maincontainer {
+        padding-bottom: 441px;
+    }
+
+    .cardmain {
+        gap: 17px;
+    }
+
+    .imgcards {
+        gap: 17px;
+    }
+
+    .lefttestimo {
+        left: 43px;
+    }
+
+    .righttestimo {
+        right: 19px;
+        top: -13px;
+    }
+
+    .uparrow {
+        top: 103px;
+        right: 4px;
+    }
+
+    .downarrow {
+        top: 170px;
+        right: 4px;
+    }
+
+    .cologos img {
+        display: none;
+    }
+
+    .h31 {
+        left: 150px;
+        top: 45px;
+    }
+
+    .h32 {
+        left: 255px;
+        top: 79px;
+    }
+
+    #getinfoimg {
+        right: 22px;
+        top: -8px;
+    }
+
+    #Email {
+        left: 232px;
+        top: 150px;
+    }
+
+    .gmailimg {
+        left: 242px;
+        top: 159px;
+    }
+
+    #getinfobtn {
+        left: 499px;
+        top: 150px;
+    }
+
+    #getinfo {
+        height: 284px;
+        align-items: start;
+    }
+
+    .footer {
+        height: 139px;
+        justify-content: center;
+        gap: 38px;
+    }
+
+    .section1 {
+        width: 125px;
+        margin-left: 20px;
+    }
+
+    .section2 {
+        width: 320px;
+    }
+
+    .allsection {
+        gap: 23px;
+    }
+
+    .rights {
+        margin-top: 22px;
+    }
+
+    .footer-column {
+        width: 29%;
+    }
+
+    .testimonials {
+        margin-top: 50px;
+    }
+
+    .topselling {
+        height: 484px;
+    }
+
+    .easyandfast {
+        flex-direction: row;
+        /* keep side-by-side */
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 40px 22px;
+        gap: 30px;
+        height: 371px;
+    }
+
+    .easyleft {
+        flex: 1;
+        gap: 20px;
+    }
+
+    .easycards {
+        gap: 25px;
+    }
+
+    .easycard1,
+    .easycard2,
+    .easycard3 {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .easyimg1,
+    .easyimg2,
+    .easyimg3 {
+        width: 40px;
+        height: 40px;
+    }
+
+    .easycards h6 {
+        position: static;
+        font-size: 13px;
+        margin: 0;
+    }
+
+    .easycards p {
+        position: static;
+        font-size: 12px;
+        margin: 5px 0 0;
+        line-height: 1.4;
+    }
+
+    .easyright {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .rightimg {
+        width: 322px;
+        height: 500px;
+        position: relative;
+        top: -11px;
+        right: -37px;
+        margin-left: 0px;
+    }
+
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        background-color: white;
+        position: absolute;
+        top: 60px;
+        /* below nav bar */
+        right: 10px;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 5;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        display: none;
+    }
+
+    .mainbgimg {
+        height: 386px;
+        width: 344px;
+    }
+
+    .nav {
+        position: relative;
+        justify-content: initial;
+
+    }
+
+    .hamburger {
+        position: absolute;
+        right: 20px;
+        top: 27px;
+        display: block;
+    }
+
+    .left {
+        width: 100%;
+        position: static;
+        /* REMOVE absolute positioning */
+        left: auto;
+        top: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 16px;
+    }
+
+    .maincontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 16px;
+        height: 226px;
+    }
+
+    .maincontainer h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 35px;
+        margin: 15px 0;
+        font-family: "Volkhov";
+    }
+
+    .maincop {
+        font-size: 11px;
+    }
+
+    .btn1 {
+        top: 212px;
+        left: 111px;
+    }
+
+    .playsvg {
+        top: 212px;
+        left: 211px;
+    }
+
+    .playdemo {
+        right: 104px;
+        top: 213px;
+    }
+
+    .cardmain {
+        flex-wrap: wrap;
+        gap: calc(18px + 2vw);
+    }
+
+    .services {
+        height: 600px;
+    }
+
+    .imgcards {
+        flex-wrap: wrap;
+    }
+
+    .topselling {
+        height: 830px;
+    }
+
+    .easyandfast {
+        flex-direction: column;
+        /* stack elements vertically */
+        padding: 20px;
+        gap: 20px;
+        height: auto;
+    }
+
+    .easyright {
+        order: 1;
+        /* image comes first */
+        width: 100%;
+        text-align: center;
+    }
+
+    .img-wrapper {
+        width: 100%;
+        /* Ya fixed width like 300px */
+        height: 320px;
+        /* Fixed height */
+        overflow: hidden;
+        /* This hides the extra image part */
+        border: 2px solid red;
+        /* Optional: red border for reference */
+        border-radius: 16px;
+        /* Optional: smooth corners */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rightimg {
+        width: 75%;
+        height: auto;
+        transform: scale(1.2);
+        object-fit: cover;
+        left: -27px;
+    }
+
+    .easyleft {
+        order: 2;
+        /* text/information comes after image */
+        width: 100%;
+        padding: 0 12px;
+        text-align: left;
+        margin-bottom: 37px;
+    }
+
+    .easycards {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .easycard1,
+    .easycard2,
+    .easycard3 {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .easyimg1,
+    .easyimg2,
+    .easyimg3 {
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+    }
+
+    .easycards h6 {
+        font-size: 14px;
+        margin-bottom: 4px;
+        position: static;
+    }
+
+    .easycards p {
+        font-size: 12px;
+        position: static;
+        max-width: 300px;
+
+    }
+
+    .testimonials {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding: 20px;
+        height: auto;
+    }
+
+    .lefttestimo {
+        width: 100%;
+        text-align: center;
+        position: static;
+    }
+
+    .lefttestimo h6 {
+        font-size: 12px;
+    }
+
+    .lefttestimo h3 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .loadimg {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .righttestimo {
+        width: 100%;
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimocards {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimocard {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        left: auto;
+        top: auto;
+        position: static;
+    }
+
+    .testimocard2 {
+        width: 80%;
+        padding: 20px;
+        position: absolute;
+        top: 270px;
+        opacity: 0.5;
+    }
+
+    .manimg {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 10px;
+    }
+
+    .uparrow,
+    .downarrow {
+        display: none;
+    }
+
+    #getinfobg {
+        height: 214px;
+        width: 400px;
+        margin-top: 64px;
+    }
+
+    .h31 {
+        left: 65px;
+        top: 99px;
+        width: auto;
+        font-size: 13px;
+    }
+
+    .h32 {
+        left: 130px;
+        top: 120px;
+        font-size: 13px;
+    }
+
+    #Email {
+        left: 80px;
+        top: 188px;
+        font-size: 12px;
+        padding: 4px 5px 4px 34px;
+        width: 147px;
+    }
+
+    #getinfobtn {
+        left: 275px;
+        top: 187px;
+        height: 28px;
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+
+    #getinfoimg {
+        right: 31px;
+        top: 56px;
+    }
+
+    #getinfo {
+        height: 284px;
+        align-items: start;
+        margin-top: 33px;
+        margin-bottom: 48px;
+    }
+
+    .gmailimg {
+        left: 89px;
+        top: 194px;
+        height: 15px;
+        width: 15px;
+    }
+
+    .allsection {
+        flex-direction: column;
+        height: 400px;
+    }
+
+    .section1 {
+        width: 100%;
+        text-align: center;
+        margin-top: 300px;
+
+    }
+
+    .section2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        margin-top: 150px;
+    }
+
+    .section1 p {
+        letter-spacing: 0.4px;
+    }
+
+    .section3 {
+        margin-top: 300px;
+    }
+
+    .section3 h3 {
+        margin: 5px 0px;
+        font-size: 14px;
+    }
+
+    .section3 img:nth-child(5) {
+        width: 58px;
+        height: 23px;
+        margin: 6px;
+    }
+
+    .rights {
+        margin-top: 350px;
+    }
+}
+
+@media (max-width: 426px) {
+
+    .playdemo {
+        right: 109px;
+        top: 216px;
+        font-size: 12px;
+    }
+
+    .btn1 {
+        top: 212px;
+        left: 80px;
+        font-size: 12px;
+    }
+
+    .playsvg {
+        top: 212px;
+        left: 175px;
+    }
+
+    .easyandfast {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 30px;
+    }
+
+    .easyleft {
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .easyleft .subheading {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .easyleft .mainheading {
+        font-size: 20px;
+        line-height: 1.3;
+        margin-bottom: 20px;
+    }
+
+    .easycards {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .easycard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #fff;
+        border-radius: 12px;
+        padding: 15px;
+        width: 100%;
+        max-width: 320px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .easycard .easyicon {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 12px;
+    }
+
+    .easycard img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .easycard h6 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .easycard p {
+        font-size: 14px;
+        color: #555;
+        line-height: 1.4;
+    }
+
+    .easyright {
+        width: 100%;
+        text-align: center;
+        margin-top: 400px;
+    }
+
+    .rightimg {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .testimocard2 {
+        width: 78%;
+        z-index: -1;
+        top: 262px;
+        left: 44px;
+    }
+
+    .h31 {
+        left: 41px;
+    }
+
+    .h32 {
+        left: 116px;
+    }
+
+    #getinfoimg {
+        right: 7px;
+        top: 51px;
+    }
+
+    .section3 img:nth-child(5),
+    .section3 img:nth-child(6) {
+        width: 60px;
+        height: 22px;
+        margin: 6px;
+    }
+}
+
+@media (max-width: 376px) {
+    .maincontainer {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 20px;
+        position: relative;
+        margin-top: 24px;
+    }
+
+    .mainbgimg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.1;
+    }
+
+    .left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mainh5 {
+        font-size: 10px;
+        letter-spacing: 1px;
+        margin-bottom: 8px;
+    }
+
+    .left h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        line-height: 1.3;
+    }
+
+    .maincop {
+        font-size: 11px;
+        line-height: 1.4;
+        padding: 0 10px;
+    }
+
+    .btn1 {
+        padding: 8px 16px;
+        font-size: 9px;
+        margin-top: 12px;
+    }
+
+    .playsvg {
+        width: 30px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .playdemo {
+        font-size: 11px;
+        top: 230px;
+        margin: 0px;
+    }
+
+    .right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .plane1,
+    .plane2 {
+        display: none;
+    }
+
+    .traveller1 {
+        width: 80%;
+        max-width: 240px;
+        margin-top: 10px;
+    }
+
+    .services {
+        text-align: center;
+        padding: 30px 15px;
+        background: none !important;
+        /* ✅ Remove section bg image */
+        height: 900px;
+        margin-top: 53px;
+    }
+
+    .services h6 {
+        font-size: 12px;
+        letter-spacing: 1px;
+        color: #5e6282;
+        margin-bottom: 8px;
+    }
+
+    .services h3 {
+        font-size: 20px;
+        margin-bottom: 25px;
+        line-height: 1.4;
+    }
+
+    .cardmain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .card {
+        width: 90%;
+        background-color: #fff;
+        padding: 20px 15px;
+        border-radius: 16px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        /* ✅ Soft Shadow */
+        text-align: center;
+        position: relative;
+    }
+
+    .card img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 15px;
+    }
+
+    .card h5 {
+        font-size: 16px;
+        margin-bottom: 8px;
+        color: #14183e;
+    }
+
+    .card p {
+        font-size: 13px;
+        color: #5e6282;
+        line-height: 1.4;
+    }
+
+    .card2 .rectangle {
+        display: none;
+    }
+
+    .card2 .cardplan {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        z-index: 1;
+    }
+
+    /* ✅ Extra bottom space to avoid overlap with next section */
+    .cardmain .card:last-child {
+        margin-bottom: 30px;
+    }
+
+    .rightimg {
+        left: -1px;
+    }
+
+
+    .easyandfast {
+        padding-left: 0px;
+    }
+
+    .testimocard2 {
+        left: 36px;
+    }
+
+    #getinfobg {
+        width: 337px;
+    }
+
+    .h31 {
+        left: 34px;
+        font-size: 11px;
+    }
+
+    .h32 {
+        left: 100px;
+        font-size: 11px;
+    }
+
+    #Email {
+        left: 42px;
+    }
+
+    #getinfobtn {
+        left: 236px;
+    }
+
+    .gmailimg {
+        left: 57px;
+    }
+
+    .section1 {
+        margin-left: 0px;
+    }
+
+    .footer {
+        margin-left: 123px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .playdemo {
+        left: 207px;
+        width: 70px;
+    }
+
+    .easycard {
+        width: 87%;
+    }
+
+    .testimocard2 {
+        left: 25px;
+        top: 295px;
+    }
+
+    #getinfobg {
+        width: 288px;
+    }
+
+    .h31 {
+        font-size: 9px;
+    }
+
+    .h32 {
+        left: 90px;
+        font-size: 9px;
+    }
+
+    #getinfoimg {
+        right: 10px;
+        top: 58px;
+        height: 25px;
+        width: 25px;
+    }
+
+    #Email {
+        width: 109px;
+        font-size: 9px;
+    }
+
+    .gmailimg {
+        left: 57px;
+        height: 11px;
+        width: 11px;
+        top: 197px;
+    }
+
+    #getinfobtn {
+        left: 197px;
+        width: 60px;
+        font-size: 8px;
+    }
+
+    .section2 {
+        padding-left: 4px;
+    }
+
+}
